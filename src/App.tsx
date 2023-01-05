@@ -2,7 +2,7 @@ import React from 'react';
 import {FC} from "react";
 import { Header } from './common/components/header/header.component';
 import { Banner } from './common/components/banner/banner.component';
-import { Container } from './common/components/container/container.component';
+import { Article } from './modules/feed/components/article.component';
 
 interface AppProps{}
 
@@ -11,7 +11,7 @@ export const App: FC<AppProps> = ({}) => {
      <div className="pb-16">
      <Header />
      <Banner />
-     
+     <Article />
     </div>
   );
 }
