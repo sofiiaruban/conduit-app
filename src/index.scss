@@ -8,5 +8,9 @@
     }
     a {
         @apply text-conduit-green;
+        &:hover {
+            @apply text-conduit-darkGreen;
+            @apply  underline;
+        }
     }
 }
