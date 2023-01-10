@@ -1,16 +1,15 @@
 import { FC } from "react";
-import { Container } from "../../../../common/components/container/container.component";
 import { Article } from "../article/article.component";
 interface ArticleListProps{}
 
 export const ArticleList: FC<ArticleListProps> = () => {
   
   return (
-    <Container>
+    <div className="w-3/4">
         <Article/>
         <Article/>
         <Article/>
         <Article/>
-    </Container>
+    </div>
   );
 }
